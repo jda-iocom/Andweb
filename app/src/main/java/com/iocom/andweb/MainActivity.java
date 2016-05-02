@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements PluginListener {
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        wv.loadUrl("https://visitest1.iocom.com/manage/api/webrtc");
+        wv.loadUrl("[Insert URL Here]");
     }
 
     @Override
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity implements PluginListener {
     @Override
     @JavascriptInterface
     public String GetHostname() {
-        return "visitest1.iocom.com";
+        return "[Your Hostname Here]";
     }
 
     @Override
