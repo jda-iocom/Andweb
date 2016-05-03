@@ -1,5 +1,5 @@
 # Andweb
-Sample showing how to embed a .WebViewClient in an Android app, and connect to the Javascript on the page.
+Sample showing how to embed a WebViewClient in an Android app, and connect to the Javascript on the page.
 
 In order for the embedded Javascript to access methods in the Android Java, you need to add the @Javascript tag. For example:
 
